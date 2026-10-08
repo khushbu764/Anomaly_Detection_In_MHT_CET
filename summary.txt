@@ -1,0 +1,20 @@
+CROSS-EXAM ANOMALY SUMMARY
+============================================================
+Comparison         Students   Link  Too LOW  Too HIGH
+CET_vs_JEE             9048   0.53      155        72
+CET_vs_HSC             9048   0.51      147        80
+JEE_vs_HSC            10000   0.31      143       107
+JEE_vs_HSC_SSC        10000   0.31      133       117
+CET_vs_HSC_SSC         9048   0.51      122       105
+
+Link  = how strongly the two exams move together (0 weak, 1 strong)
+Too LOW  = student's score is far BELOW what other marks predict
+Too HIGH = student's score is far ABOVE what other marks predict
+
+Students by level:
+level
+NORMAL    9295
+LOW        344
+MEDIUM     259
+HIGH       102
+Name: count, dtype: int64
